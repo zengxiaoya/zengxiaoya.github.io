@@ -18,7 +18,7 @@
         
     </title>
 
-    <link rel="canonical" href="http://yoursite-url/tags/">
+    <link rel="canonical" href="http://zengxiaoya.github.io/tags/">
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="/css/bootstrap.min.css">
@@ -143,14 +143,14 @@
 
                         
                         <li>
-                            <a href="/archive/">Archives</a>
+                            <a href="/tags/">Tags</a>
                         </li>
                         
                     
 
                         
                         <li>
-                            <a href="/tags/">Tags</a>
+                            <a href="/archive/">Archives</a>
                         </li>
                         
                     
@@ -200,9 +200,9 @@
             <!-- 标签云 -->
             <div id='tag_cloud' class="tags">
                 
-                    <a href="#Hexo" title="Hexo" rel="1">Hexo</a>
+                    <a href="#Hexo" title="Hexo" rel="2">Hexo</a>
                 
-                    <a href="#Blog" title="Blog" rel="1">Blog</a>
+                    <a href="#Blog" title="Blog" rel="2">Blog</a>
                 
             </div>
 
@@ -233,6 +233,25 @@
                 </div>
                 <hr>
                 
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <div class="post-preview">
+                     <a href="/2017/07/17/Hexo使用心得/">
+                        <h2 class="post-title">
+                            Hexo使用心得
+                        </h2>
+                        
+                            <h3 class="post-subtitle">
+                                关于Hexo使用心得
+                            </h3>
+                        
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </div>
+                <hr>
+                
             </div>
             
             <div class="one-tag-list">
@@ -252,6 +271,25 @@
                         
                             <h3 class="post-subtitle">
                                 This is hexo theme Demo.
+                            </h3>
+                        
+                    </a>
+                    <!-- <p class="post-meta">{{ post.date | date:"%Y-%m-%d" }}</p> -->
+                </div>
+                <hr>
+                
+                  <!-- <li class="listing-item">
+                  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
+                  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+                  </li> -->
+                 <div class="post-preview">
+                     <a href="/2017/07/17/Hexo使用心得/">
+                        <h2 class="post-title">
+                            Hexo使用心得
+                        </h2>
+                        
+                            <h3 class="post-subtitle">
+                                关于Hexo使用心得
                             </h3>
                         
                     </a>
@@ -361,7 +399,7 @@
 <script>
     // only load tagcloud.js in tag.html
     if($('#tag_cloud').length !== 0){
-        async("http://yoursite-url/js/jquery.tagcloud.js",function(){
+        async("http://zengxiaoya.github.io/js/jquery.tagcloud.js",function(){
             $.fn.tagcloud.defaults = {
                 //size: {start: 1, end: 1, unit: 'em'},
                 color: {start: '#bbbbee', end: '#0085a1'},
@@ -412,7 +450,7 @@
 	<script type="text/javascript" src="/js/totop.js?v=1.0.0" async=""></script>
     <script type="text/javascript" src="/js/toc.js?v=1.0.0" async=""></script>
 <!-- Image to hack wechat -->
-<img src="http://yoursite-url/img/icon_wechat.png" width="0" height="0" />
+<img src="http://zengxiaoya.github.io/img/icon_wechat.png" width="0" height="0" />
 <!-- Migrate from head to bottom, no longer block render and still work -->
 
 </body>
